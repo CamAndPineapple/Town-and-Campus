@@ -12,7 +12,7 @@ I hoped to improve this website by:
 * Optimize resources for speed
 * And of course, making it pretty
 
-Visit the site at: theCamDen.github.io/Town-and-Campus/ 
+Visit the site at: http://thecamden.github.io/Town-and-Campus/
 
 
 
