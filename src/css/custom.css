@@ -622,5 +622,113 @@ ul {
     width:400px;
 }
 
+/* NEW CSS */
+
+.services-container {
+	padding-top: 200px;
+	padding-bottom: 200px;
+	background-color: #fff;
+}
+
+	.services-nav-container {
+		text-align: center;
+		margin-bottom: 0;
+		padding: 0;
+		box-shadow: 4px 1px 26px 5px rgba(0, 0, 0, 0.14);
+	}
+
+	.services-nav {
+		padding: 0;
+		margin: 0;
+	}
+
+		.services-nav-li {
+			display: inline-block;
+			background-color: #00BBF2;
+			color: white;
+			height: 90px;
+			padding: 32px;
+			font-family: 'Lato', sans-serif;
+			font-size: 19px;
+			font-weight: 300;
+			letter-spacing: 3px;
+		}
+
+		.services-nav-li:hover {
+			background-color: #009FC7;
+			cursor: pointer;
+		}
+
+		.tab-active {
+			background-color: #009FC7;
+
+		}
+
+	.services-content-container {
+		height:30px;
+		width: 400px;
+		background-color: white;
+	}
+
+		.services-content-ul {
+			background-color: white;
+			margin-bottom: 0;
+			padding: 0;
+
+		}
+
+
+
+			.services-content-li {
+				background-color: #F9F9F9;
+				padding: 40px;
+				border-bottom: 1px solid #E0DBDB;
+				font-size: 19px;
+   				letter-spacing: 1px;
+    			font-weight: 300;
+			}
+				.services-content-li:hover {
+					background-color: #FF7C58;
+					color: #fff;
+					opacity: 0.8;
+					cursor: pointer;
+				}
+
+				.table-wrapper {
+					padding: 30px;
+				}
+
+			.services-content-li-table {
+				padding-left: 50px;
+				background-color: #FFF;
+				border-bottom: 1px solid #E0DBDB;
+				font-size: 19px;
+   				letter-spacing: 1px;
+    			font-weight: 300;
+    			text-align: left;
+			}
+
+	/* Wedding */
+
+	.services-content-li-wedding {
+				background-color: #F9F9F9;
+				padding: 40px;
+				border-bottom: 1px solid #E0DBDB;
+				font-size: 19px;
+   				letter-spacing: 1px;
+    			font-weight: 300;
+			}
+
+	.wedding-table {
+		text-align: left;
+	}
+
+		.wedding-table-text {
+			text-align: left;
+		}
+
+
+
+
 
 
