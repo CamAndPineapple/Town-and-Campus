@@ -48,6 +48,7 @@ gulp.task('styles', function(){
             ".collapse",
             ".collapse.in",
             ".collapsing",
+            ".tab-active",
             /\.open/
        		]
 		}))
