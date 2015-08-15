@@ -232,7 +232,26 @@ ul {
 					opacity: 0.8;
 					cursor: pointer;
 				}
-					
+
+
+		.hours-text-day {
+			font-family: 'Lato';
+			font-size: 22px;
+			color: #2669A6;
+			line-height: 55px;
+		}
+
+		.hours-text-hours {
+			color: #373F48;
+			font-size: 22px;
+		}
+
+		.hours-text-check {
+			font-size: 21px;
+			color: #FF7C58;
+			text-align: center;
+		}
+
 	#hours-close-button {
 		padding: 12px 30px;
 		color: #FF7C58;
