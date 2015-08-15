@@ -4,6 +4,12 @@ $(function(){
 	$("#wedding-list").hide();
 	$("#hair").addClass('tab-active');
 
+	// mobile
+
+	$("#mobile-salon-list").hide();
+	$("#mobile-wedding-list").hide();
+	$("#mobile-hair").addClass('tab-active');
+
 	$("#hair").click(function(){
 
 		$("#hair-list").fadeIn('fast');
@@ -35,37 +41,37 @@ $(function(){
 
 	// Mobile
 
-	$("#salon-list-mobile").hide();
-	$("#wedding-list-mobile").hide();
-	$("#hair-mobile").addClass('tab-active');
+	$("#mobile-salon-list").hide();
+	$("#mobile-wedding-list").hide();
+	$("#mobile-hair").addClass('tab-active');
 
-	$("#hair-mobile").click(function(){
+	$("#mobile-hair").click(function(){
 
-		$("#hair-list-mobile").fadeIn('fast');
-		$("#salon-list-mobile").hide();
-		$("#wedding-list-mobile").hide();
-		$("#hair-mobile").addClass('tab-active');
-		$("#salon-mobile").removeClass('tab-active');
-		$("#wedding-mobile").removeClass('tab-active');
+		$("#mobile-hair-list").fadeIn('fast');
+		$("#mobile-salon-list").hide();
+		$("#mobile-wedding-list").hide();
+		$("#mobile-hair").addClass('tab-active');
+		$("#mobile-salon").removeClass('tab-active');
+		$("#mobile-wedding").removeClass('tab-active');
 
 	});
 
-	$("#salon-mobile").click(function(){
-		$("#salon-list-mobile").fadeIn('fast');
-		$("#hair-list-mobile").hide();
-		$("#wedding-list-mobile").hide();
-		$("#salon-mobile").addClass('tab-active');
-		$("#hair-mobile").removeClass('tab-active');
-		$("#wedding-mobile").removeClass('tab-active');
+	$("#mobile-salon").click(function(){
+		$("#mobile-salon-list").fadeIn('fast');
+		$("#mobile-hair-list").hide();
+		$("#mobile-wedding-list").hide();
+		$("#mobile-salon").addClass('tab-active');
+		$("#mobile-hair").removeClass('tab-active');
+		$("#mobile-wedding").removeClass('tab-active');
 	});
 
-	$("#wedding").click(function(){
-		$("#wedding-list-mobile").fadeIn('fast');
-		$("#hair-list-mobile").hide();
-		$("#salon-list-mobile").hide();
-		$("#wedding-mobile").addClass('tab-active');
-		$("#hair-mobile").removeClass('tab-active');
-		$("#salon-mobile").removeClass('tab-active');
+	$("#mobile-wedding").click(function(){
+		$("#mobile-wedding-list").fadeIn('fast');
+		$("#mobile-hair-list").hide();
+		$("#mobile-salon-list").hide();
+		$("#mobile-wedding").addClass('tab-active');
+		$("#mobile-hair").removeClass('tab-active');
+		$("#mobile-salon").removeClass('tab-active');
 	});
 
 
