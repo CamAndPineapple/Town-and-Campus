@@ -179,15 +179,12 @@ ul {
  * HOURS
  */ 
 
-	.table th, .table td { 
-     border-top: none !important; 
- 	}
-
-	 
-		.hours-container {
-	padding-top: 20px;
-	padding-bottom: 75px;
-	background-color: #fff;
+.table th, .table td { 
+ border-top: none !important; 
+	}
+	
+.hours-container {
+background-color: #fff;
 }
 
 .hours-nav-container {
