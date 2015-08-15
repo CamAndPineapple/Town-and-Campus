@@ -182,14 +182,14 @@ ul {
 .table th, .table td { 
  border-top: none !important; 
 	}
-	
+
 .hours-container {
 background-color: #fff;
 }
 
 .hours-nav-container {
 	text-align: center;
-		margin-bottom: 0;
+		margin-bottom: 75px;
 		padding: 0;
 		box-shadow: 4px 1px 26px 5px rgba(0, 0, 0, 0.14);
 }
