@@ -1,9 +1,10 @@
 $(function() {
 
-	// start state 
+	// start state for mobile/desktop
 	$("#salon-list").hide();
 	$("#wedding-list").hide();
 	$("#hair").addClass('tab-active');
+
 	$("#mobile-salon-list").hide();
 	$("#mobile-wedding-list").hide();
 	$("#mobile-hair").addClass('tab-active');
